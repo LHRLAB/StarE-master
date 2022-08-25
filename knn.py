@@ -5,7 +5,7 @@ from functools import lru_cache
 from data_loaders import clean_datasets
 from SPARQLWrapper import SPARQLWrapper, JSON
 from gensim.models import KeyedVectors as kv
-
+#jsdklfj
 
 def create_file(emb: dict, emb_size, file_name):
     final_strings = [[str(len(emb) - 1)] + [str(emb_size)] + ['\n']]

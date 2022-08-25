@@ -19,7 +19,7 @@ def create_file(emb: dict, emb_size, file_name):
         for f in final_strings:
             file.write(" ".join(f))
 
-
+#
 def create_embed_model(MODEL_PATH, CUSTOM_MODEL_PATH):
     model = torch.load(MODEL_PATH, map_location=torch.device('cpu'))
     try:
